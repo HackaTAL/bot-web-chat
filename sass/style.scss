@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+a, button, input {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+  background-color: #FFF8E1;
+  color: #616161;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.main--container {
+  height: 100%;
+  display: flex;
+  section {
+    height: 100%;
+    &:first-child {
+      background-color: white;
+      width: 30%;
+    }
+    &:last-child {
+      width: 70%;
+    }
+  }
+}
+
+@import "data";
+@import "chat";

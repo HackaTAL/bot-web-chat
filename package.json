@@ -1,0 +1,12 @@
+{
+  "name": "recast.AI",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp-connect": "^2.3.1",
+    "gulp-server-livereload": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

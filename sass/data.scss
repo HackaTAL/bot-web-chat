@@ -1,0 +1,8 @@
+#data--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  image, video {
+    max-width: 100%;
+  }
+}
