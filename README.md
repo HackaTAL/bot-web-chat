@@ -28,6 +28,7 @@ sentence: String (user input)
 
 
 sentence: String
+
 author: 'user' OR 'bot'
 
 *addImage(data)*
