@@ -1,10 +1,12 @@
 # bot-web-chat
 
 install dependencies
+
 `npm install`
 
 
 run
+
 `gulp`
 
 
@@ -17,15 +19,23 @@ Create your bot on https://recast.ai and copy paste your `Request access token` 
 
 ### Methodes
 
-_sendRequest(sentence)_
+*sendRequest(sentence)*
+
+
 sentence: String (user input)
 
-_addMessage(data, author)_
+*addMessage(data, author)*
+
+
 sentence: String
 author: 'user' OR 'bot'
 
-_addImage(data)_
+*addImage(data)*
+
+
 data: 'IMAGE_URL'
 
-_addVideo(data)_
+*addVideo(data)*
+
+
 data: 'VIDEO_URL'
